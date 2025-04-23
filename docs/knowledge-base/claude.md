@@ -102,6 +102,7 @@ export default defineConfig({
   plugins: [
     pluginOas(),
     pluginTs(),
+    pluginZod(),
     pluginMcp({
       client: {
         baseURL: 'https://petstore.swagger.io/v2', // [!code ++]
